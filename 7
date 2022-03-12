@@ -1,0 +1,15 @@
+import 'dart:io';
+
+void main() {
+  var jS, pass;
+  jS = 'hemlo';
+  print('Enter password');
+  pass = stdin.readLineSync();
+  if (pass == null) {
+    print('Enter Password Please!');
+  } else if (jS == pass) {
+    print('Correct! The password youentered matches the original password');
+  } else {
+    print('Password Incorrect');
+  }
+}

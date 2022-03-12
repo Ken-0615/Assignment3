@@ -1,0 +1,5 @@
+void main(List<String> args) {
+  String s1 = 'Hyderabad';
+  String s2 = s1.replaceRange(0, 5, 'Islam');
+  print(s2);
+}

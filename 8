@@ -1,0 +1,19 @@
+import 'dart:io';
+
+void main(List<String> args) {
+  List li = [], l2 = [];
+  var total = 500;
+  li.insert(0, 'Affan');
+  li.insert(1, 'arsalan');
+  li.insert(2, "kenneth");
+  l2.insert(0, 480);
+  l2.insert(1, 460);
+  l2.insert(2, 440);
+
+  var per1 = l2.elementAt(0) * 100 / 500;
+  var per2 = l2.elementAt(1) * 100 / 500;
+  var per3 = l2.elementAt(2) * 100 / 500;
+  print(li.elementAt(0) + ' obtaianed percentage $per1%');
+  print(li.elementAt(1) + ' obtaianed percentage $per2%');
+  print(li.elementAt(2) + ' obtaianed percentage $per3%');
+}
